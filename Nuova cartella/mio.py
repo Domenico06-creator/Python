@@ -53,7 +53,7 @@ def play_audio(zone_name):
 
 def simulate_boat_journey():
     for _ in range(10):
-        battello_x, battello_y = generate_random_coordinates(42.120, 12.230, 10)
+        battello_x, battello_y = generate_random_coordinates(42.120, 12.230,5)
         print(f"Posizione del battello: ({battello_x}, {battello_y})")
         zone = check_zone(battello_x, battello_y)
         if zone:
